@@ -25,4 +25,12 @@ public class Switch : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void SwitchToIntroduction()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void SwitchToOver()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
